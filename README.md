@@ -1,14 +1,18 @@
+# Project forked from riek
+
+Change: Update react peer dependencies
+
 # React Inline Edit Kit
 An assortment of common HTML form elements, editable in-line the React way.
 
 Try out [the demo](http://kaivi.github.io/riek/) and see what it looks like.
 
 # Installation
-`npm install riek --save-dev`
+`npm install updated-riek --save-dev`
 
 *or*
 
-`yarn add riek --dev`
+`yarn add updated-riek --dev`
 
 *Use `--save-dev` because you don't want to build and pack JS/CSS in production*
 
@@ -16,7 +20,7 @@ Try out [the demo](http://kaivi.github.io/riek/) and see what it looks like.
 Import the library:
 
 ```javascript
-import { RIEToggle, RIEInput, RIETextArea, RIENumber, RIETags, RIESelect } from 'riek'
+import { RIEToggle, RIEInput, RIETextArea, RIENumber, RIETags, RIESelect } from 'updated-riek'
 import _ from 'lodash'
 ```
 
@@ -66,7 +70,7 @@ Finally, in our `render` method, we add a minimal `RIEInput`:
 
 ...repeat the last step, adding a Riek component for any object property we wish to edit.
 
-Components come unstyled, so take a look at [demo.jsx](https://github.com/kaivi/riek/blob/master/demo/demo.jsx) for examples.
+Components come unstyled, so take a look at [demo.jsx](https://github.com/theyeshu/updated-riek/blob/master/demo/demo.jsx) for examples.
 
 ## Common props
 
